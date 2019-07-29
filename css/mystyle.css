@@ -1,0 +1,39 @@
+.navbar-inverse{
+  background: #DDDEFF;
+  margin-bottom:0px;
+  font-size:16px;
+  font-weight:bold;
+  font-family: 'Courgette', cursive;
+}
+.navbar-brand{
+  margin-top: 20px;
+  margin-left: 80px;
+  height: 80px;
+  width: 250px;
+  
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.navbar-brand>img
+{
+  height:100%;
+
+}
+#navbar
+{
+  margin-top: 25px;
+  color: #34a782;;
+   font-family: 'Courgette', cursive;
+
+}
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus{
+  color:#F7F8FC;
+  background: #34a782;
+}
+.navbar-inverse .navbar-nav .dropdown-menu> li> a:hover,
+.navbar-inverse .navbar-nav .dropdown-menu{
+  background-color: #34a782;
+  color: black;
+}
